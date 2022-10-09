@@ -1,0 +1,34 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+  background-color: darkgrey;
+}
+
+p {
+  color: black;
+  font-size: 1.3em;
+}
+
+button {
+  outline: none;
+  background-color: green;
+  font-size: 1.3em;
+}
+
+.outside {
+  padding: 10px;
+}
+
+.top-bar {
+ 
+}
+
+.quiz-container {
+
+}
