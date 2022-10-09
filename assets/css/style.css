@@ -3,15 +3,17 @@
   padding: 0%;
   box-sizing: border-box;
   border: 1px solid red;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-size: 16px; 
+  font-family: monospace;
+  color: black;
 }
 
 body {
-  background-color: darkgrey;
+  background-color: #1F618D;
+  overflow: hidden;
 }
 
 p {
-  color: black;
   font-size: 1.3em;
 }
 
@@ -23,12 +25,21 @@ button {
 
 .outside {
   padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 6px solid yellow;
 }
 
-.top-bar {
- 
+.top-bar p{
+ float: right;
 }
+
 
 .quiz-container {
-
+ background: aquamarine;
+ height: 100%;
+ width: 50%;
+ margin: 0 auto;
 }
