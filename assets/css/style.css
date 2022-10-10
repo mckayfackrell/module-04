@@ -1,9 +1,7 @@
 *{
   margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  font-size: 16px; 
-  font-family: monospace;
+  font-size: 20px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;
 }
 
@@ -12,14 +10,15 @@ body {
   overflow: hidden;
 }
 
-p {
-  font-size: 1.3em;
+button {
+  transition-duration: 0.4s;
+  border-radius: 8px;
 }
 
-button {
-  outline: none;
-  background-color: rgb(181, 60, 60);
-  font-size: 1.3em;
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
 }
 
 .outside {
@@ -51,8 +50,6 @@ h1 {
   margin-bottom: 25vh;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: gray;
-
 }
 
 .quiz-start p {
@@ -70,9 +67,4 @@ main {
 
 li {
   list-style: none;
-}
-
-button:hover {
-  
- cursor: pointer;
 }
