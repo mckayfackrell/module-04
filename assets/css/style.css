@@ -61,6 +61,29 @@ h1 {
   margin: 0 auto;
 }
 
+.question-container {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ 
+ .question-start, main {
+   margin-bottom: 25vh;
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+ 
+ .question-start p {
+   text-align: center;
+ }
+ 
+ .question-start button {
+   display: block;
+ }
+
 main {
   display: none;
 }
