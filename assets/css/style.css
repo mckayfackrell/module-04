@@ -23,6 +23,10 @@ button {
   font-size: 1.3em;
 }
 
+li {
+  list-style: none;
+}
+
 .outside {
   padding: 10px;
   height: 100vh;
@@ -36,6 +40,9 @@ button {
  float: right;
 }
 
+h1 {
+  text-align: center;
+}
 
 .quiz-container {
  background: aquamarine;
@@ -47,6 +54,23 @@ button {
  justify-content: center;
 }
 
-.quiz-start {
-  margin-top: 25vh;
+.quiz-start, main {
+  margin-bottom: 25vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: whitesmoke;
+
+}
+
+.quiz-start p {
+  text-align: center;
+}
+
+.quiz-start button {
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  display: none;
 }
