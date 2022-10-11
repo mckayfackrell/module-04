@@ -6,35 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <html style="font-size: 16px; font-family: monospace;">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  <title>Congrats!</title>
+  <title>High Scores</title>
 </head>
 
 <body>
   <div class="outside">
+
+    <div class="top-bar">
+      <div class="top-bar">
+        <button class="button" onclick="location.href='index.html'">Home</button>
+      </div>
+    </div>
+    <h1>High Scores</h1>
     <br>
-    <h1>Save Your High Score</h1>
+    <ul id="highScoresList"></ul>
     <div class="quiz-container"> 
       <header class="quiz-start">
         
-        <div id="end">
-          <h2 id="finalScore"></h2>
-        <br>
-        <form>
-          <input
-        type="text" 
-        name="username" 
-        id="username" 
-        placeholder="username"/></form>
-        <br>
-        </div>
-        <button 
-        type="submit" 
-        id="saveScore" 
-        onclick="saveHighScore(event)" 
-        >
-        Save
-      </button>
-
+        
       </header>
       <main>
        
@@ -43,6 +32,6 @@
 
 
   </div>
-  <script src="highscore.js"></script>
+  <script src="final.js"></script>
 </body>
 </html>
