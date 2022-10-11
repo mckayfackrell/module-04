@@ -36,7 +36,7 @@ button:hover {
  float: right;
 }
 
-h1, ul {
+h1 {
   text-align: center;
 }
 
@@ -75,6 +75,7 @@ form {
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 .question-container {
