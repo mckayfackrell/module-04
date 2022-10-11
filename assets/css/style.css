@@ -33,7 +33,11 @@ button:hover {
 }
 
 .top-bar div{
- float: right;
+ float: left;
+}
+
+.top-bar .hud-main-text{
+  float: right;
 }
 
 h1 {
