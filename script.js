@@ -2,6 +2,7 @@ const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const scoreText = document.getElementById("score");
 
+let timerEl = document.getElementById('countdown');
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -77,6 +78,30 @@ let questions = [
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 8;
+
+
+countdown ();
+// Timer that counts down from 75
+function countdown() {
+  var timeLeft = 75;
+  // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
+  var timeInterval = setInterval(function () {
+    // As long as the `timeLeft` is greater than 1
+    if (timeLeft > 1) {
+      // Set the `textContent` of `timerEl` to show the remaining seconds
+      timerEl.textContent = timeLeft;
+      // Decrement `timeLeft` by 1
+      timeLeft--;
+    } else {
+      // Once `timeLeft` gets to 0, set `timerEl` to an empty string
+      timerEl.textContent = '0';
+    }
+  }, 1000);
+}
+
+
+
+
 
 startGame = () => {
   questionCounter = 0;
