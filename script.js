@@ -1,6 +1,5 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-console.log(choices);
 const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
@@ -83,7 +82,6 @@ startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions]
-  console.log(availableQuestions)
   getNewQuestion();
 };
 
@@ -137,6 +135,4 @@ incrementScore = num => {
   scoreText.innerText = score;
 }
  
-
-
 startGame()
