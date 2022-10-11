@@ -109,14 +109,14 @@ main {
   display: none;
 }
 
-.questions button.correct {
+.correct {
   border-radius: 8px;
   padding: 5px;
   background-color: green;
 }
 
-.questions button.wrong {
+.incorrect {
   border-radius: 8px;
   padding: 5px;
-  background-color: grey;
+  background-color: rgb(150, 6, 6);
 }

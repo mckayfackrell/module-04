@@ -1,0 +1,66 @@
+const quizData = [
+  {
+    question: "Which of the following is an example of an array?"
+    a: "var array = []",
+    b: "var array = {}", 
+    c: "var array = ()", 
+    d: "var array = <>",
+    correct: "var array = []",
+  },
+  {
+    question: "Which DOM method is used to create a new HTML element?"
+    a: "document.newElement()", 
+    b: "document.createElement()",
+    c: "document.element()", 
+    d: "document.spawnElement()",
+    correct: "document.createElement()",
+  },
+  {
+    question: "Which operator is used to represent AND statements?"
+    a: "||", 
+    b: "+", 
+    c: "&&",
+    d: "&",
+    correct: "&&",
+  },
+  {
+    question: "What does HTML stand for?"
+    a: "Hypertext Markup Language",
+    b: "Hypertext Markdown Language",
+    c: "Hyperloop Machine Language",
+    d: "Helicopters Terminals Motorboats Lamborginis",
+    correct: "a",
+  },
+  {
+    question: "What does CSS stand for?",
+    a: "Central Style Sheets",
+    b: "Cascading Style Sheets",
+    C: "Cascading Simple Sheets",
+    d: "Cars SUVs Sailboats",
+    correct: "b",
+  },
+  {
+    question: "Which language runs in a web browser?"
+    a: "Java",
+    b: "C",
+    C: "Python",
+    d: "JavaScript",
+    correct: "d",
+  },
+  {
+    question: "Which operator will compare if two literals are the exact same?"
+    a: "==", 
+    b: "*=", 
+    c: "!=",
+    d: "===",
+    correct: "===",
+  },
+  {
+    question: "What year was JavaScript launched?"
+    a: "1996",
+    b: "1995",
+    C: "1994",
+    d: "none of the above",
+    correct: "b",
+  }
+];
